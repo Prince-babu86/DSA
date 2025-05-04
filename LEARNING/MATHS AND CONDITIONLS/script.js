@@ -67,8 +67,18 @@ CP = A - p
 // }
 
 
-let a = Number(prompt("Enter a number"));
-let b =  Number(prompt("Enter a number"));
+let a = Number(prompt("Enter a frist number number"));
+let b =  Number(prompt("Enter a second  number"));
+let c =  Number(prompt("Enter a third number"));
 
 if(a>b) console.log(a +" is the greatest nuber");
 else console.log(b +" is the gretest number");
+
+
+if(a>b && a>c){
+    console.log(a);
+}else if(b>a && b>c){
+    console.log(b);
+}else{
+    console.log(c);
+}
